@@ -1,6 +1,6 @@
 # npmtest-seriate
 
-#### test coverage for  [seriate (v0.9.0)](http://github.com/leankit-labs/seriate)  [![npm package](https://img.shields.io/npm/v/npmtest-seriate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-seriate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-seriate.svg)](https://travis-ci.org/npmtest/node-npmtest-seriate)
+#### basic test coverage for  [seriate (v0.9.0)](http://github.com/leankit-labs/seriate)  [![npm package](https://img.shields.io/npm/v/npmtest-seriate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-seriate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-seriate.svg)](https://travis-ci.org/npmtest/node-npmtest-seriate)
 
 #### A cross platform module for Microsoft SQL Server that wraps node-mssql
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-seriate/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-seriate/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-seriate/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-seriate/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-seriate/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-seriate/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-seriate/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-seriate/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-seriate/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-seriate/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-seriate/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-seriate/build/coverage.html/index.html)
 
@@ -149,7 +149,8 @@
         "example": "node ./example/example.js",
         "test": "gulp test"
     },
-    "version": "0.9.0"
+    "version": "0.9.0",
+    "bin": {}
 }
 ```
 
